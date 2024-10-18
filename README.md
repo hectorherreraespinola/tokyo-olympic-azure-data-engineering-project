@@ -22,8 +22,23 @@ The data from the 2021 Tokyo Olympics is extracted from a GitHub repository usin
 #### Steps:
 1. **Create a Linked Service in Azure Data Factory**:
    - Configure a Linked Service to connect to the GitHub repository.
+
+![Screenshot 2024-10-18 162452](https://github.com/user-attachments/assets/3373af94-f475-446c-a255-aa0b3a638650)
+
 2. **Create a Pipeline in Azure Data Factory**:
    - Create a pipeline to extract the data from the GitHub repository and load it into Azure Data Lake Gen2.
+  
+     ![Screenshot 2024-10-18 162617](https://github.com/user-attachments/assets/07ca15a3-a7e3-485d-9eb4-1140f3bbdde7)
+
+3. ** Data to Extract:
+    - Athletes
+    - Coaches
+    - EntriesGender
+    - Medals
+    - Teams
+
+
+
 
 ### 2. Data Transformation
 The ingested data is transformed using Azure Databricks. The transformation process includes cleaning, aggregating, and preparing the data for analysis.
@@ -39,6 +54,9 @@ The ingested data is transformed using Azure Databricks. The transformation proc
    - Perform data cleaning, aggregation, and preparation.
 5. **Save Transformed Data**:
    - Save the transformed data back to a different folder in Azure Data Lake Gen2.
+  
+![Screenshot 2024-10-18 162708](https://github.com/user-attachments/assets/2ca95b69-dcfa-41df-8db8-b953d68478de)
+
 
 ### 3. Data Analysis
 The transformed data is analyzed using Azure Synapse Analytics. SQL queries are used to generate insights and reports from the data.
@@ -52,6 +70,12 @@ The transformed data is analyzed using Azure Synapse Analytics. SQL queries are 
    - Load the transformed data from Azure Data Lake Gen2 into Synapse.
 4. **Perform Data Analysis**:
    - Use SQL queries to analyze the data and generate insights.
+![Screenshot 2024-10-18 162851](https://github.com/user-attachments/assets/49e75ccc-95e6-405e-9197-6b84790d52e2)
+![Screenshot 2024-10-18 162939](https://github.com/user-attachments/assets/f2ec5696-ba13-4eec-8b05-c654b6372962)
+![Screenshot 2024-10-18 163018](https://github.com/user-attachments/assets/c1a24f52-de4a-4ef0-be31-c907cb3c0fc3)
+
+
+
 
 ## Security and Authentication
 The project uses Azure Active Directory for authentication and Azure Key Vault for secrets management. This ensures secure access to resources and sensitive information.
