@@ -55,7 +55,8 @@ The ingested data is transformed using Azure Databricks. The transformation proc
 5. **Save Transformed Data**:
    - Save the transformed data back to a different folder in Azure Data Lake Gen2.
   
-![Screenshot 2024-10-18 162708](https://github.com/user-attachments/assets/2ca95b69-dcfa-41df-8db8-b953d68478de)
+![Screenshot 2024-10-18 164254](https://github.com/user-attachments/assets/fc93f8bc-6179-4716-80a2-faf68c5ab9a8)
+
 
 
 ### 3. Data Analysis
