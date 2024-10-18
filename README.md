@@ -4,8 +4,8 @@
 This project involves the extraction, transformation, and analysis of data from the 2021 Tokyo Olympics. The data is sourced from a GitHub repository, ingested using Azure Data Factory, stored in Azure Data Lake Gen2, transformed in Azure Databricks, and analyzed in Azure Synapse Analytics. The project leverages various Azure services for orchestration, storage, authentication, and secrets management.
 
 ## Architecture
-(![Blank diagram](https://github.com/user-attachments/assets/85bfd5f8-0abf-4134-84c9-e850b419c5a2)
-)
+![Blank diagram](https://github.com/user-attachments/assets/85bfd5f8-0abf-4134-84c9-e850b419c5a2)
+
 
 ## Technologies Used
 - **Data Source**: Data Factory / GitHub
