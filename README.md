@@ -7,7 +7,7 @@ This project involves the extraction, transformation, and analysis of data from 
 ![Architecture Diagram](path_to_architecture_diagram.png)
 
 ## Technologies Used
-- **Data Source**: SQL Server
+- **Data Source**: Data Factory / GitHub
 - **Orchestration**: Azure Data Factory
 - **Ingestion**: Azure Data Lake Gen2
 - **Storage**: Azure Synapse Analytics
