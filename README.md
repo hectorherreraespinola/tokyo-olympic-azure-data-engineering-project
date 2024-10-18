@@ -30,7 +30,7 @@ The data from the 2021 Tokyo Olympics is extracted from a GitHub repository usin
   
      ![Screenshot 2024-10-18 162617](https://github.com/user-attachments/assets/07ca15a3-a7e3-485d-9eb4-1140f3bbdde7)
 
-3. ** Data to Extract:
+3. **Data to Extract:
     - Athletes
     - Coaches
     - EntriesGender
